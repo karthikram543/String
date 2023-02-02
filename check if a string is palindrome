@@ -1,0 +1,31 @@
+package network;
+
+import java.util.Scanner;
+
+public class pali {
+
+	public static void main(String[] args) {
+		
+		String myStr1 = "malayalam";
+		String myStr2 = "";
+		
+		
+		for(int i=myStr1.length()-1;i>=0;i--) {
+			myStr2=myStr2+myStr1.charAt(i);
+			
+		}
+		
+		if (myStr1.equals(myStr2)) {
+		      System.out.println(myStr1 + " is a Palindrome String.");
+		    }
+		    else {
+		      System.out.println(myStr1 + " is not a Palindrome String.");
+		    }
+			 
+		 }
+		
+		}
+			
+      output:
+      
+      malayalam is a Palindrome String.
