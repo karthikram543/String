@@ -1,0 +1,29 @@
+public class sam {
+	
+	public static void main (String[]args) {
+		
+		String str="karthik";
+		
+		char [] saar =str.toCharArray();
+		
+		for(int i=0;i<saar.length;i++) {
+			
+			for(int j=i+1;j<saar.length;j++) {
+				if(saar[i] == saar[j]) {
+					System.out.println("The first reapeated character is" + " " +saar[i]);
+					break;
+				}
+				
+				
+			}
+		}
+		
+		
+	}
+
+}
+
+
+output:
+
+The first reapeated character is k
