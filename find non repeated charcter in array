@@ -1,0 +1,36 @@
+public class name {
+
+	public static void main(String[] args) {
+
+		String name ="karthik ";
+		for(int i=1;i<name.length();i++) {
+		char ch=name.charAt(i);
+		boolean result=false;
+	for(int j=i+1;j<name.length();j++) {
+		if(ch==name.charAt(j)) {
+		System.out.println(ch+ "repeated");
+		result=true;
+		
+		}
+		
+		}
+	if(result==false) {
+		System.out.println(ch+ " not repeated");
+		break;
+		
+	}
+	
+	
+
+		
+		
+		
+		
+	
+}}}
+
+
+
+output:
+
+a not repeated
