@@ -1,0 +1,22 @@
+public class name {
+
+	public static void main(String[] args) {
+
+		String sentence ="mark is nerd ";
+		
+		int space = 0; 
+		for(int i=0; i<sentence.length();i++)
+		{
+			if(sentence.charAt(i)==' ')
+				space++;
+			//System.out.print(sentence.charAt(i));
+		}
+		System.out.println("No. of words "+ (space+1));
+		
+		
+	}
+}
+
+output;
+
+No. of words 4
