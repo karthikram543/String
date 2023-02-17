@@ -1,0 +1,41 @@
+public class Concats {
+
+	public static void main(String[] args) {
+		String name="karthik";
+		char[]array=name.toCharArray();
+		String name2="hi";
+		char[]array1=name2.toCharArray()
+;
+		int j=0;
+		int i=0;
+		char[]result=new char[array.length+array1.length];
+		
+		for( i=0;i<result.length;i++) {
+			if(i<array.length) {
+				result[i]=array[i];
+				System.out.println(result[i]);
+			}
+			else {
+				result[i]=array1[j];
+				j++;
+				System.out.println(result[i]);
+				
+			}
+			
+		}
+		
+
+	}
+
+}
+
+output:
+k
+a
+r
+t
+h
+i
+k
+h
+i
