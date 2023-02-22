@@ -1,0 +1,26 @@
+public class Main
+{
+
+	public static void main(String args[]) {
+ 
+         String str="Kart hi k";
+         char[]array=str.toCharArray();
+        String space="";
+         
+         
+         for(int i=0;i<array.length;i++){
+             
+             if(array[i]!= ' '){
+                 space=space+array[i];
+             }
+            
+         }
+         
+ System.out.println("after removing white spaces" + " " + "-" +space);
+}
+	
+	}
+
+output:
+
+after removing white spaces -Karthik
