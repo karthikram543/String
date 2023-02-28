@@ -1,0 +1,43 @@
+public class Array4 {
+
+	int product=0;
+	int product1=0;
+	public static void main(String[] args) {
+		
+		
+		String word[]={"one","one","one","twp-o"};
+		int count;
+		
+		for(int i=0;i<word.length;i++) {
+			count=1;
+			for(int j=i+1;j<word.length;j++) {
+				
+				if(word[i].equals(word[j])) {
+					count++;
+					word[j]="0";
+					
+				}
+			}
+			if(count>1 && word[i]!="0") {
+				System.out.println(word[i]+"occured" + " " +count+" " +"times");
+				
+			}
+		}
+		
+		
+		
+		
+		
+	   
+    }
+    
+}
+
+
+
+
+output:
+oneoccured 3 times
+
+
+
