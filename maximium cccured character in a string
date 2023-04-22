@@ -1,0 +1,24 @@
+public class array1 {
+
+	
+	    public static void main(String[] args) {
+	        String str ="michael jackson";
+	        int maxFreq = 0;
+	        char maxChar = ' ';
+
+	        for (char ch = 'a'; ch <= 'z'; ch++) {
+	            int freq = 0;
+	            for (int i = 0; i < str.length(); i++) {
+	                if (str.charAt(i) == ch) {
+	                    freq++;
+	                }
+	            }
+	            if (freq > maxFreq) {
+	                maxFreq = freq;
+	                maxChar = ch;
+	            }
+	        }
+
+	        System.out.println("The maximum occurring character in the string is '" + maxChar + "' with frequency " + maxFreq);
+	    }
+	}
